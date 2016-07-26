@@ -10,7 +10,7 @@ urlpatterns = patterns('',
 
                        # Groups urls
                        url(r'^groups/$', 'students.views.groups_list', name='groups'),
-                       url(r'^groups/add/$', 'students.views.groups_add', name='students_add'),
+                       url(r'^groups/add/$', 'students.views.groups_add', name='groups_add'),
                        url(r'^groups/(?P<sid>\d+)/edit/$', 'students.views.groups_edit', name='groups_edit'),
                        url(r'^groups/(?P<sid>\d+)/delete/$', 'students.views.groups_delete', name='groups_delete'),
                        url(r'^admin/', include(admin.site.urls)),
