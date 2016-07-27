@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang = "uk">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Сервіс Обліку Студентів</title>
+	<meta name="description"
+	      value="Система обліку студентів навчального закладу"/>
+
+		<!--Include Styles-->
+	<link rel="stylesheet" 
+	href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css"> 
+	<!--<style type="text/css">.col-xs-12, .col-xs-4, .col-xs-8 {border: 1px solid red;}</style>-->
+	<link rel="stylesheet" href="./css/accounting.css">
+</head>
+
+
+<body>
+
+	<!--Start Container-->
+	<div class = "container">
+
+		<!--Start Header-->
+		<div class="row" id="header">
+
+			<!--Logo-->
+			<div class="col-xs-8">
+				<h1>Сервіс Обліку Студентів</h1>
+			</div>
+			
+			<!--Groups Selector-->
+			<div class="col-xs-4" id="group-selector">
+				<strong>Група:</strong>
+				<select>
+					<option value="">Усі Студенти</option>
+					<option value="">МтМ - 21, Лавренюк Андрій (#123)</option>
+					<option value="">МтМ - 22, Колодій Ігор (#456)</option>
+				</select>
+			</div>
+		</div>	
+		<!--End Header-->
+
+		<!--Start SubHeader-->
+		<div class="row" id="sub-header">
+			<div class="col-xs-12">
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#">Студенти</a></li>
+					<li role="presentation"><a href="#">Відвідування</a></li>
+					<li role="presentation"><a href="#">Групи</a></li>
+				</ul>
+			</div>
+		</div>		
+		<!--End SubHeader-->
+
+		
+		<!--Start Main Page Content-->
+		<div class="row" id="content-columns">
+			<div class="col-xs-12", id="content-column">
+				
+				<h2>Облік Відвідування</h2>
+
+				<!--Start Students Listing-->
+				<div>
+				<p class="text-center" class="navbar-text">&larr;Лютий 2016&rarr;</p>
+					<table class="table table-hower table-striped">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Студент</th>
+								<th>Ср 1</th>
+								<th>Чт 2</th>
+								<th>Пт 3</th>
+								<th>Сб 4</th>
+								<th>Нд 5</th>
+								<th>Пн 7</th>
+								<th>Вт 8</th>
+								<th>Ср 9</th>
+								<th>Чт 10</th>
+								<th>Пт 11</th>
+								<th>Сб 12</th>
+								<th>Нд 13</th>
+								<th>Пн 14</th>
+								<th>Вт 15</th>
+								<th>Ср 16</th>
+								<th>Чт 17</th>
+								<th>Пт 18</th>
+								<th>Сб 19</th>
+								<th>Нд 20</th>
+								<th>Пн 21</th>
+								<th>Вт 22</th>
+								<th>Ср 23</th>
+								<th>Чт 24</th>
+								<th>Пт 25</th>
+								<th>Сб 26</th>
+								<th>Нд 27</th>
+								<th>Пн 28</th>
+								<th>Вт 29</th>
+								<th>Ср 30</th>
+								<th>Чт 31</th>
+								
+							</tr>
+						</thead>
+						
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td><a title="Редагувати" href="#">Лавренюк Андрій</a></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+							</tr>
+							
+							<tr>
+								<td>2</td>
+								<td><a title="Редагувати" href="#">Гуменюк Ярослав</a></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>	
+							</tr>
+							
+							<tr>
+								<td>3</td>
+								<td><a title="Редагувати" href="#">Колодій Ігор</a></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>	
+							</tr>
+							
+							<tr>
+								<td>4</td>
+								<td><a title="Редагувати" href="#">Пігуль Олександр</a></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+								<td><div class="checkbox"><label><input type="checkbox" value=""></label></div></td>
+							</tr>	
+						</tbody>
+					</table>
+					<nav>
+						<ul class="pagination">
+							<li><a href="#">&laquo;</a></li>
+							<li><a href="#">1</a></li>
+							<li class="active"><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">&raquo;</a></li>
+						</ul>
+					</nav>		
+				</div>
+				<!--End Sudens Listig-->
+			</div>
+		</div>
+		<!--End Main Page Content-->
+
+		<!--Start Footer-->
+		<div class="row" id="footer">
+			<div class="col-xs-12">
+			&copy; 2016 Сервіс Обліку Студентів
+			</div>
+		</div>
+		<!--End Footer-->
+	</div>
+	<!--End Container-->
+
+
+		<!--Javascript Section-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+	<script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
